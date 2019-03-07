@@ -15,9 +15,9 @@ const forecast = (latitide, longitude, callback) => {
           body.currently.temperature
         } degree out. There is a ${
           body.currently.precipProbability
-        }% chance of rain.Highest temprature is ${
+        }% chance of rain. Highest temperature is ${
           body.daily.data[0].temperatureHigh
-        } and lowest temprature is ${body.daily.data[0].temperatureLow} .`
+        } and lowest temperature is ${body.daily.data[0].temperatureLow} .`
       );
     }
   });
